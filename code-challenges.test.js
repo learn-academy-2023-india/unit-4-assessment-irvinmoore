@@ -12,6 +12,11 @@
 
 // a) Create a test with expect statements for each of the variables provided.
 
+describe("fibonacci", () => {
+  it("returns a Fibonacci sequence array of a given length", () => {
+      const fibonacciLength1 = 6;
+      expect(fibonacci(fibonacciLength1)).toEqual([1, 1, 2, 3, 5, 8]);
+
 //describe("greeter", () => {
   //it("returns a generic greeting", () => {
 
@@ -75,5 +80,6 @@
 // Expected output: -31
 
 // b) Create the function that makes the test pass.
+
 
 
