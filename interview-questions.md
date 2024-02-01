@@ -10,29 +10,29 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Similarities
 
-1.
-2.
-3.
+1. JS and Ruby both make it easier for developers to write code
+2. JS and Ruby both use inheritances
+3. JS and Ruby have libraries
 
 Differences
 
-1.
-2.
-3.
+1. JS creates a dynamic user interface and Ruby powers web apps
+2. JS is used in the web brower and Ruby is used on the server 
+3. JS has supports OOP and functional programming and Ruby is experessive
 
 Researched answer:
 
 2. What does it mean to implement a TDD workflow?
 
-Your answer:
+Your answer: TDD means following a process where you write the test, fail, code again, rerun test to pass, and do it all over again. 
 
-Researched answer:
+Researched answer: TDD, or Test-Driven Development, is a software development methodology where developers write tests before writing the actual code.
 
 3. What is a block in Ruby?
 
-Your answer:
+Your answer: Putting statements together and passing them as a argument to a method 
 
-Researched answer:
+Researched answer: In Ruby, a block is a piece of code that can be passed to a method for execution. 
 
 4. STRETCH: What is a version manager?
 
