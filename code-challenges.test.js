@@ -12,10 +12,10 @@
 
 // a) Create a test with expect statements for each of the variables provided.
 
-describe("fibonacci", () => {
-  it("returns a Fibonacci sequence array of a given length", () => {
-      const fibonacciLength1 = 6;
-      expect(fibonacci(fibonacciLength1)).toEqual([1, 1, 2, 3, 5, 8]);
+//describe("fibonacci", () => {
+  //it("returns a Fibonacci sequence array of a given length", () => {
+      //const fibonacciLength1 = 6;
+      //expect(fibonacci(fibonacciLength1)).toEqual([1, 1, 2, 3, 5, 8]);
 
 //describe("greeter", () => {
   //it("returns a generic greeting", () => {
@@ -46,9 +46,28 @@ describe("fibonacci", () => {
 //const result = generateFibonacci(fibonacciLength1);
 //console.log(result);
 
+//function fibonacciLegnth(num) {
+  //let num1 = 1;
+  //let num2 = 1;
+  //let fibArr = [num1, num2];
+  //for (let i = 2; i < num; i++) {
+    //sum = num1 + num2;
+    //num1 = num2;
+    //num2 = sum;
+    //fibArr.push(sum);
+  //}
+  //return fibArr;
+//}
+
 //const fibonacciLength2 = 10;
 //const result = generateFibonacci(fibonacciLength2);
 //console.log(result);
+
+// Pseudo code:
+// Create a funtion that takes in a number and returns the fibonacci sequence to the length of the input
+// Take in a number and add it to the previous input
+// Take the sum and add it to the next input.
+// Console log the function with .legnth to create the expected output 
 
 
 // --------------------2) Create a function that takes in an object that contains up votes and down votes and returns the end tally.
@@ -81,5 +100,9 @@ describe("fibonacci", () => {
 
 // b) Create the function that makes the test pass.
 
+// Pseudo code:
+
+// Create a function that subtracts upvotes from downvotes
+// Output created is the tally of the two
 
 
